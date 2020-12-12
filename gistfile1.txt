@@ -1,4 +1,14 @@
-require 'http'
+require 'bundler/inline'
+
+gemfile do
+  source 'https://rubygems.org'
+  gem 'http'
+  gem 'byebug'
+end
+
+puts 'Gems installed and loaded!'
+
+# require 'http'
 require 'fileutils'
 
 # Fetch collection manifest
