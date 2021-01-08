@@ -12,7 +12,7 @@ puts 'Gems installed and loaded!'
 require 'fileutils'
 
 # Fetch collection manifest
-collection = JSON.parse(HTTP.get("https://fromthepage.com/iiif/collection/371").to_s)
+collection = JSON.parse(HTTP.get("https://fromthepage.com/iiif/collection/762").to_s)
 # Select manifests w/ 100% completion
 collection.dig('manifests').take(1).select{|manifest| manifest['service']['pctComplete'].to_i == 100 }.each do |manifest|
   parsed_manifest = JSON.parse(HTTP.get(manifest['@id']).to_s)
