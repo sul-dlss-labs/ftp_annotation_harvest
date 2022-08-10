@@ -1,5 +1,7 @@
 # ftp_annotation_harvest
 
+> ⚠️ **ATTENTION!** This repository predates the creation of the [FromThePage structured data API for harvesting contributions](https://github.com/benwbrum/fromthepage/wiki/Structured-Data-API-for-Harvesting-Crowdsourced-Contributions). 
+
 This is a (proof of concept) script to harvest from a transcription projects hosted on [FromThePage](https://fromthepage.com/) for accessioning with existing image or book objects in the Stanford Digital Repository. Originally based on two Gists ([1](https://gist.github.com/camillevilla/4d19805f564092ffc64a7653893d47d5), [2](https://gist.github.com/mejackreed/7546c2947d94ffce5fa3d1c38fbde6d7)).
 
 ## Best case scenario
